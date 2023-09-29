@@ -4,3 +4,4 @@ faiss-cpu
 flask
 numpy
 pandas
+tiktoken
