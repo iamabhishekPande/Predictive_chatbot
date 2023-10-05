@@ -56,11 +56,7 @@ def conversational_chat():
         langchain_prompt_template = """
             [Assistant]
             You are a project management assistant.
-            #special Information you need to consider before giving answer
-            1.Assitant always give same answer for same question
-            2.Assistant always give answer for specific information asked in question 
-            3.Assistant if you face any difficulty use yourself efficiently
-            4.Assistant dont try to make answer just say i don't know
+            give same answer for same question don't change your answer genrate once
             {context}
             Give answer based on the below refrence provideed for all the projects
             User: What is the likelihood of a project with Amber status to turn Red?
