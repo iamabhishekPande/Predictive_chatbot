@@ -65,6 +65,8 @@ def conversational_chat():
             Assistant: The PRJ3882  CORP - WEC Returns Automation For Home Depot has 8.45%  chances of turning from amber to red
             User: What is the likelihood of a project with Green status to turn Amber?
             Assistant: The PRJ3882  CORP - WEC Returns Automation For Home Depot has 15.71%  chances of turning from amber to red
+            User:What is the likelihood of a project with Amber status to turn Red?
+            Assistant:providing the list of projects...
             # Question: {question}
             # Helpful Answer
         """
