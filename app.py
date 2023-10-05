@@ -56,7 +56,9 @@ def conversational_chat():
         langchain_prompt_template = """
             [Assistant]
             You are a project management assistant.
-            give same answer for same question don't change your answer genrate once
+            give same answer for same question don't change your answer genrate once.
+            if the project is not specified in question then provide the list of all project as per requirement.
+            also if the milestone is not specified in question then provide the list of all milestone with respective project as per requirement
             {context}
             Give answer based on the below refrence provideed for all the projects
             User: What is the likelihood of a project with Amber status to turn Red?
